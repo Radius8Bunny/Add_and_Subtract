@@ -2,7 +2,7 @@
 
 using namespace std;
 
-// 0 for subtract, 1 for add
+// 0 for subtract, 1 for add, 2 for multiply, 3 for devide
 
 int first_number;
 int second_number;
@@ -24,4 +24,12 @@ int main(int argc, char* argv[])
     if (operation == 1){
         cout << first_number + second_number << endl;
     }
+    
+    if (operation == 2){
+        cout << first_number * second_number << endl;
+    }
+    if (operation == 3){
+        cout << first_number / second_number << endl;
+    }
+
 }
